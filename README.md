@@ -1,8 +1,9 @@
 # botanical-journey
+Project for Creating New Dimensions Hackathon.
 
 Go on a botanical journey and discover plants for your plant journal!
 
-**Used data sets: **
+**Used data sets:**
 
 - Georg Schweinfurths botanische Zeichnungen
 - Pflanzenbelege aus dem Botanischen Garten Berlin
