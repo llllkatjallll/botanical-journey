@@ -1,0 +1,86 @@
+
+> my-project@1.0.0 build:production
+> npm run build:dev && npm run pack-gltf
+
+
+> my-project@1.0.0 build:dev
+> tsc && vite build && npm run copy-files
+
+vite v2.6.4 building for production...
+transforming...
+✓ 268 modules transformed.
+rendering chunks...
+dist/index.html                  1.41 KiB
+dist/assets/index.f2265946.css   1.58 KiB / gzip: 0.66 KiB
+dist/assets/index.309411c1.js    463.98 KiB / gzip: 129.59 KiB
+dist/assets/vendor.ffa7ba1b.js   1135.87 KiB / gzip: 305.00 KiB
+
+✨ [vite-plugin-compression]:algorithm=gzip - compressed file successfully: 
+./dist/assets/index.f2265946.css.gz   1.58kb / gzip: 0.66kb
+./dist/index.html.gz                  1.41kb / gzip: 0.64kb
+./dist/assets/index.309411c1.js.gz    463.98kb / gzip: 129.26kb
+./dist/assets/vendor.ffa7ba1b.js.gz   1135.87kb / gzip: 304.12kb
+
+
+
+> my-project@1.0.0 copy-files
+> copy-files-from-to
+
+Reading copy instructions from file package.json
+
+Starting copy operation in "default" mode:
+ ✓ Copied [binary] assets/DefaultAvatar.glb to dist/assets/DefaultAvatar.glb
+ ✓ Copied [binary] assets/scene.glb to dist/assets/scene.glb
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/console/ConsoleReroute.js to dist/include/console/ConsoleReroute.js
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/draco/draco_decoder.js to dist/include/draco/draco_decoder.js
+ ✓ Copied [binary] node_modules/@needle-tools/engine/include/draco/draco_decoder.wasm to dist/include/draco/draco_decoder.wasm
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/ktx2/basis_transcoder.js to dist/include/ktx2/basis_transcoder.js
+ ✓ Copied [binary] node_modules/@needle-tools/engine/include/ktx2/basis_transcoder.wasm to dist/include/ktx2/basis_transcoder.wasm
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/three/ARButton.js to dist/include/three/ARButton.js
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/three/DragControls.js to dist/include/three/DragControls.js
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/three/EXT_mesh_gpu_instancing_exporter.js to dist/include/three/EXT_mesh_gpu_instancing_exporter.js
+ ✓ Copied [ utf8 ] node_modules/@needle-tools/engine/include/three/VRButton.js to dist/include/three/VRButton.js
+ ✓ Copied [binary] node_modules/@needle-tools/engine/include/three-mesh-ui-assets/backspace.png to dist/include/three-mesh-ui-assets/backspace.png
+ ✓ Copied [binary] node_modules/@needle-tools/engine/include/three-mesh-ui-assets/enter.png to dist/include/three-mesh-ui-assets/enter.png
+ ✓ Copied [binary] node_modules/@needle-tools/engine/include/three-mesh-ui-assets/shift.png to dist/include/three-mesh-ui-assets/shift.png
+ ✓ Already exists include/console/ConsoleReroute.js
+ ✓ Already exists include/draco/draco_decoder.js
+ ✓ Already exists include/draco/draco_decoder.wasm
+ ✓ Already exists include/ktx2/basis_transcoder.js
+ ✓ Already exists include/ktx2/basis_transcoder.wasm
+ ✓ Already exists include/three/ARButton.js
+ ✓ Already exists include/three/DragControls.js
+ ✓ Already exists include/three/EXT_mesh_gpu_instancing_exporter.js
+ ✓ Already exists include/three/VRButton.js
+ ✓ Already exists include/three-mesh-ui-assets/backspace.png
+ ✓ Already exists include/three-mesh-ui-assets/enter.png
+ ✓ Already exists include/three-mesh-ui-assets/shift.png
+ ✓ Already exists dist/include/console/ConsoleReroute.js
+ ✓ Already exists dist/include/draco/draco_decoder.js
+ ✓ Already exists dist/include/draco/draco_decoder.wasm
+ ✓ Already exists dist/include/ktx2/basis_transcoder.js
+ ✓ Already exists dist/include/ktx2/basis_transcoder.wasm
+ ✓ Already exists dist/include/three/ARButton.js
+ ✓ Already exists dist/include/three/DragControls.js
+ ✓ Already exists dist/include/three/EXT_mesh_gpu_instancing_exporter.js
+ ✓ Already exists dist/include/three/VRButton.js
+ ✓ Already exists dist/include/three-mesh-ui-assets/backspace.png
+ ✓ Already exists dist/include/three-mesh-ui-assets/enter.png
+ ✓ Already exists dist/include/three-mesh-ui-assets/shift.png
+
+> my-project@1.0.0 pack-gltf
+> node node_modules/@needle-tools/engine/plugins/gltf-packer.mjs
+
+Debug false
+GLB files in dist/assets: [ 'dist/assets/DefaultAvatar.glb', 'dist/assets/scene.glb' ]
+now packing: dist/assets/DefaultAvatar.glb
+[NEEDLE_gameobject_data] READ
+[NEEDLE_components] READ
+[NEEDLE_lightmaps] READ
+found referenced texture textures/0 0
+[NEEDLE_lighting_settings] READ
+
+error: Command "toktx" not found. Please install KTX-Software, from:
+
+https://github.com/KhronosGroup/KTX-Software
+

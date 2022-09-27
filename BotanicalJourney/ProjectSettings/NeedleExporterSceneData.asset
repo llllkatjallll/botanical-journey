@@ -15,7 +15,8 @@ MonoBehaviour:
   Scenes:
   - Path: Assets/Scenes/CollaborativeSandbox.unity
     Projects:
-    - ProjectPath: Library/CollabSandbox
+    - ProjectPath: Projects/CollaborativeSandbox
     BuilderScene: 
   Projects:
   - ProjectPath: Library/CollabSandbox
+  - ProjectPath: Projects/CollaborativeSandbox

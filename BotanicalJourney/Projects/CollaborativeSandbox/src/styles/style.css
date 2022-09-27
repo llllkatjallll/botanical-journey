@@ -13,6 +13,25 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.journal{
+    background-color:olive;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top:30px;
+    left:30px;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+}
+
+.plant-number{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
 
 #main {
     background-color: black;
