@@ -1,6 +1,10 @@
 # botanical-journey
 Project for Creating New Dimensions Hackathon.
 
+Current prototype state:
+https://github.com/llllkatjallll/botanical-journey
+
+
 Go on a botanical journey and discover plants for your plant journal!
 
 **Used data sets:**
