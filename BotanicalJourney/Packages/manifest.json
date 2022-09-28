@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.elzach.extensions": "0.0.20",
     "com.needle.engine-exporter": "2.25.2-pre",
     "com.unity.collab-proxy": "1.15.18",
     "com.unity.feature.development": "1.0.1",

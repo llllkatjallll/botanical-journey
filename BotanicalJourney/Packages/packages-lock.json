@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.elzach.extensions": {
-      "version": "0.0.20",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://package.openupm.com"
-    },
     "com.needle.engine": {
       "version": "2.21.0-pre",
       "depth": 1,
