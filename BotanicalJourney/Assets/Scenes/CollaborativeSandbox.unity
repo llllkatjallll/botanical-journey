@@ -654,6 +654,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Dyschoriste erecta_freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5819,7 +5823,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5897,7 +5901,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6249,10 +6253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Needle.Engine.ExportInfo, Needle.Engine.Common $ GlobalObjectId_V1-2-d541a43e59ef6e94b8483da1bfc954ea-784234923-0
   DirectoryName: Projects/CollaborativeSandbox
   AutoExport: 1
-  Dependencies:
-  - Name: new-npmdef
-    VersionOrPath: Assets/New NpmDef.npmdef
-    Guid: 35254d6f9d09a27468ccf70404b7b9e7
+  Dependencies: []
 --- !u!4 &784234924
 Transform:
   m_ObjectHideFlags: 0
@@ -6281,7 +6282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Needle.Engine.Codegen.ComponentGenerator, Needle.Engine
     $ GlobalObjectId_V1-2-d541a43e59ef6e94b8483da1bfc954ea-784234925-0
-  compilerDirectory: D:/Git/Hackathon/Botanical Journey/botanical-journey/BotanicalJourney/Assets/../Projects/CollaborativeSandbox/node_modules/@needle-tools/engine/node_modules/@needle-tools/needle-component-compiler/src
+  compilerDirectory: Projects/CollaborativeSandbox/node_modules/@needle-tools/engine/node_modules/@needle-tools/needle-component-compiler/src
 --- !u!114 &784234926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6459,7 +6460,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  currentNumber: 0
+  plantName: Blumen
+  plantLocation: Blumen
+  plantDescription: Blumen
+  currentNumber: 3
 --- !u!1001 &810441616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11568,7 +11572,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11754,6 +11758,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Aloe_vera_freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -11882,7 +11890,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12186,6 +12194,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: g_forster_plant2_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -12356,6 +12368,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: g_forster_plant1_freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -12736,6 +12752,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Striga_gesnerioides_freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -12974,6 +12994,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Begonia freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -13167,9 +13191,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Halocnemum_freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13293,9 +13321,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Striga_gesnerioides_freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13384,9 +13416,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Polystachya_freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13965,6 +14001,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Cotyledon_freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
       value: 1
