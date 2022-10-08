@@ -21,6 +21,12 @@
   <meta property="og:description" content="" />
 
   <link rel="stylesheet" href="./src/styles/style.css">
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
 </head>
 
 <body>
@@ -34,8 +40,23 @@
 
   <div id="main">
     <needle-engine>
+
       
       <div id="journal-container" class="hide ar desktop">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" id="p1">Blume 1</div>
+            <div class="swiper-slide" id="p2">Slide 2</div>
+            <div class="swiper-slide" id="p3">Slide 3</div>
+            <div class="swiper-slide" id="p4">Slide 4</div>
+            <div class="swiper-slide" id="p5">Slide 5</div>
+            <div class="swiper-slide" id="p6">Slide 6</div>
+            <div class="swiper-slide" id="p7">Slide 7</div>
+            <div class="swiper-slide" id="p8">Slide 8</div>
+            <div class="swiper-slide" id="p9">Slide 9</div>
+          </div>
+        </div>
+
         <h1 id="plant-name">
           Keine Blumen gefunden
         </h1>
@@ -52,5 +73,14 @@
      </div> -->
     </needle-engine> 
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <script>
+     var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+  </script>
 </body>
 </html>

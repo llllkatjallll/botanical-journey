@@ -12,6 +12,7 @@ export class PlantManager extends Behaviour
 {
     @serializeable(EventList)
     onClick?: EventList;
+    plantId: string = "";
     plantName: string = "Blumen";
     plantLocation: string = "Blumen";
     plantDescription: string = "Blumen";
@@ -27,6 +28,12 @@ export class PlantManager extends Behaviour
         
         const journalButton = document.getElementById("journalButton") as HTMLInputElement;
         const journalContainer = document.getElementById("journal-container") as HTMLInputElement;
+ 
+        const plantPage = document.getElementById(this.plantId) as HTMLInputElement;
+
+        if(plantPage){
+            plantPage.innerHTML= this.plantName;
+        }
         var journalActive = false;
         journalButton.onclick = function(){
 

@@ -654,6 +654,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantId
+      value: p3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Dyschoriste erecta freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Dyschoriste erecta_freige
@@ -6436,37 +6444,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Needle.Engine.Components.DragControls, Needle.Engine $
     GlobalObjectId_V1-2-d541a43e59ef6e94b8483da1bfc954ea-790516076-0
---- !u!114 &790516077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 790516073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4b2bca74585aa98c388b029055c328b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 790516073}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  plantName: Blumen
-  plantLocation: Blumen
-  plantDescription: Blumen
-  currentNumber: 3
 --- !u!1001 &810441616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11761,6 +11738,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantId
+      value: p5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Aloe vera freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Aloe_vera_freige
@@ -12391,6 +12376,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantId
+      value: p4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: g_forster_plant1_freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: g_forster_plant1_freige
@@ -12775,6 +12768,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantId
+      value: p6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Striga gesnerioides freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Striga_gesnerioides_freige
@@ -13017,6 +13018,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantId
+      value: p1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Begonia freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Begonia freige
@@ -14024,6 +14033,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantId
+      value: p2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Cotyledon freige
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Cotyledon_freige
@@ -14249,7 +14266,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Graderia_fruticosa_wiggle
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 387445798233001564, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &543450652773576271 stripped
 Transform:

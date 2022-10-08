@@ -8,6 +8,7 @@ namespace Needle.Typescript.GeneratedComponents
 	public partial class PlantManager : UnityEngine.MonoBehaviour
 	{
 		public UnityEngine.Events.UnityEvent @onClick;
+		public string @plantId = "";
 		public string @plantName = "Blumen";
 		public string @plantLocation = "Blumen";
 		public string @plantDescription = "Blumen";
