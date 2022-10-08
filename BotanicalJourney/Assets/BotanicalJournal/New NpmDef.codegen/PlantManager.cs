@@ -5,7 +5,7 @@
 
 namespace Needle.Typescript.GeneratedComponents
 {
-	public partial class SelectPlant : UnityEngine.MonoBehaviour
+	public partial class PlantManager : UnityEngine.MonoBehaviour
 	{
 		public UnityEngine.Events.UnityEvent @onClick;
 		public string @plantName = "Blumen";
@@ -13,6 +13,7 @@ namespace Needle.Typescript.GeneratedComponents
 		public string @plantDescription = "Blumen";
 		// public HTMLImageElement @image; → Could not resolve C# type
 		public float @currentNumber = 3f;
+		public float @currentNumberTest = 54f;
 		public void start(){}
 		public void onPointerClick(){}
 	}

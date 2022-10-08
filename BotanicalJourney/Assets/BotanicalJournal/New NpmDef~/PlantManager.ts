@@ -1,12 +1,14 @@
-import { Behaviour } from "@needle-tools/engine/engine-components/Component";
+import { Behaviour, serializeable } from "@needle-tools/engine";
+
+
 import { EventList } from "@needle-tools/engine/engine-components/EventList";
 import { PointerEventData } from "@needle-tools/engine/engine-components/ui/PointerEvents";
-import { serializeable } from "@needle-tools/engine/engine/engine_serialization_decorator";
+
 
 let x = 0;
 
 
-export class SelectPlant extends Behaviour
+export class PlantManager extends Behaviour
 {
     @serializeable(EventList)
     onClick?: EventList;
@@ -17,11 +19,8 @@ export class SelectPlant extends Behaviour
     image?: HTMLImageElement
     
     currentNumber: number = 3;
+    currentNumberTest: number = 54;
 
-    
-    
-
- 
   
 
     start(){

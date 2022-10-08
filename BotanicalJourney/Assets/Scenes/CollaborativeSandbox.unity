@@ -6253,7 +6253,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Needle.Engine.ExportInfo, Needle.Engine.Common $ GlobalObjectId_V1-2-d541a43e59ef6e94b8483da1bfc954ea-784234923-0
   DirectoryName: Projects/CollaborativeSandbox
   AutoExport: 1
-  Dependencies: []
+  Dependencies:
+  - Name: new-npmdef
+    VersionOrPath: Assets/BotanicalJournal/New NpmDef.npmdef
+    Guid: 3cc53589e9237324581d422632553ad0
 --- !u!4 &784234924
 Transform:
   m_ObjectHideFlags: 0
@@ -11833,6 +11836,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
   m_PrefabInstance: {fileID: 1133262365}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1133262367 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+  m_PrefabInstance: {fileID: 1133262365}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1133262368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133262367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cad617db84f5989ff39ae17a40677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minMaxSpeed: {x: 1, y: 1}
+  minMaxOffsetNormalized: {x: 0, y: 0}
 --- !u!1 &1139443093
 GameObject:
   m_ObjectHideFlags: 0

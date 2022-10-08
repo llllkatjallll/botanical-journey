@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9222076741787125441}
-  - component: {fileID: 9222076741787125440}
+  - component: {fileID: 8224470965092269901}
   - component: {fileID: 575661828344036930}
   m_Layer: 0
   m_Name: Plant
@@ -136,7 +136,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9222076741787125440
+--- !u!114 &8224470965092269901
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9222076741787125443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4b2bca74585aa98c388b029055c328b, type: 3}
+  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   onClick:
@@ -163,7 +163,10 @@ MonoBehaviour:
           m_StringArgument: touched
           m_BoolArgument: 0
         m_CallState: 2
-  currentNumber: 0
+  plantName: Blumen
+  plantLocation: Blumen
+  plantDescription: Blumen
+  currentNumber: 3
 --- !u!95 &575661828344036930
 Animator:
   serializedVersion: 4
