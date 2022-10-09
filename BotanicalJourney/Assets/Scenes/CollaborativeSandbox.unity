@@ -655,12 +655,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 23fd3b856c324eb4f8c0e7e2d3280a41, type: 3}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantId
       value: p3
       objectReference: {fileID: 0}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Dyschoriste erecta freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImageURL
+      value: ../src/images/texture/Dyschoriste erecta_freige.png
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
@@ -5587,6 +5595,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantId
+      value: p8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: g_forster_plant3_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImageURL
+      value: ../src/images/texture/g_forster_plant3_freige.png
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -5617,7 +5637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5829,9 +5849,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantId
+      value: p9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: g_forster_plant4_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImageURL
+      value: ../src/images/texture/g_forster_plant4_freige.png
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5899,84 +5931,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
   m_PrefabInstance: {fileID: 555501424}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &599539041
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1150408497}
-    m_Modifications:
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.967715
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.25204685
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 29.197
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Name
-      value: g_forster_plant5_freige (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ebf709ab042bbb54a82b82e3171d9d2d, type: 2}
-    - target: {fileID: 9222076742607873200, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ebf709ab042bbb54a82b82e3171d9d2d, type: 2}
-    - target: {fileID: 9222076742705539467, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ebf709ab042bbb54a82b82e3171d9d2d, type: 2}
-    - target: {fileID: 9222076742782658190, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ebf709ab042bbb54a82b82e3171d9d2d, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
---- !u!4 &599539042 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-  m_PrefabInstance: {fileID: 599539041}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &608534418
 PrefabInstance:
@@ -11550,9 +11504,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 63346e4a0533d6648a12dee6d924b84d, type: 3}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11739,12 +11697,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 57f499c372b8e7c4eb6e9338822a9653, type: 3}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantId
-      value: p5
+      value: p4
       objectReference: {fileID: 0}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Aloe vera freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImageURL
+      value: ../src/images/texture/Aloe_vera_freige.png
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
@@ -11752,7 +11718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11897,7 +11863,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11942,6 +11908,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: Graderia_fruticosa
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11997,20 +11967,18 @@ Transform:
   - {fileID: 1599256584}
   - {fileID: 2110539134}
   - {fileID: 336446596}
-  - {fileID: 1369213087}
   - {fileID: 1133262366}
   - {fileID: 1500908501}
+  - {fileID: 1369213087}
   - {fileID: 1312912061}
-  - {fileID: 1392238703}
   - {fileID: 485136078}
   - {fileID: 555501425}
   - {fileID: 1042577438}
-  - {fileID: 1145178939}
   - {fileID: 1698369041}
   - {fileID: 1860054839}
   - {fileID: 1797400521}
-  - {fileID: 599539042}
   - {fileID: 543450652773576271}
+  - {fileID: 1145178939}
   m_Father: {fileID: 969208505}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12201,6 +12169,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImage
+      value: 
+      objectReference: {fileID: 2800000, guid: f98b1c52837889a44a50439d09519d39, type: 3}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantId
+      value: p7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: g_forster_plant2_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImageURL
+      value: ../src/images/texture/g_forster_plant2_freige.png
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: g_forster_plant2_freige
@@ -12377,12 +12361,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 15024cd95dbc4eb4990f70d4b2036e08, type: 3}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantId
-      value: p4
+      value: p6
       objectReference: {fileID: 0}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: g_forster_plant1_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImageURL
+      value: ../src/images/texture/g_forster_plant1_freige.png
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
@@ -12390,7 +12382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12458,11 +12450,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
   m_PrefabInstance: {fileID: 1369213086}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1392238703 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-  m_PrefabInstance: {fileID: 9222076742622439086}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1428464786
 PrefabInstance:
@@ -12769,12 +12756,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImage
+      value: 
+      objectReference: {fileID: 2800000, guid: ac10424754952ed439d4db1fb77ba28a, type: 3}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantId
-      value: p6
+      value: p5
       objectReference: {fileID: 0}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Striga gesnerioides freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImageURL
+      value: ../src/images/texture/Striga_gesnerioides_freige.png
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
@@ -12782,7 +12777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13019,12 +13014,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 57f499c372b8e7c4eb6e9338822a9653, type: 3}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantId
       value: p1
       objectReference: {fileID: 0}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Begonia freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImageURL
+      value: ../src/images/texture/Begonia_freige.png
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
@@ -13229,7 +13232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13359,7 +13362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13454,7 +13457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14034,12 +14037,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 57f499c372b8e7c4eb6e9338822a9653, type: 3}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantId
       value: p2
       objectReference: {fileID: 0}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Cotyledon freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImageURL
+      value: ../src/images/texture/Cotyledon_freige.png
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
@@ -14220,7 +14231,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14269,11 +14280,39 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 387445798233001564, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
+--- !u!1 &387445798618384373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 693855846926938881, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
+  m_PrefabInstance: {fileID: 387445798618384372}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &543450652773576271 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 387445798618384372}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &543450652773576272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387445798618384373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
+  plantId: 
+  plantName: Blumen
+  plantLocation: Blumen
+  plantDescription: Blumen
+  myImage: {fileID: 0}
+  myImageURL: 
+  currentNumber: 3
+  currentNumberTest: 54
 --- !u!1001 &4473676541219362433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14366,72 +14405,3 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8218894175684400825, guid: 2bcc43beb6c02634dadc7ce5aeec5544, type: 3}
   m_PrefabInstance: {fileID: 4473676541219362433}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &9222076742622439086
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1150408497}
-    m_Modifications:
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5834
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5834
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5834
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.93
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Name
-      value: Plant
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}

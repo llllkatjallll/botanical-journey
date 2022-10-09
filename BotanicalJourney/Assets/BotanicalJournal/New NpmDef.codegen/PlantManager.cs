@@ -12,7 +12,8 @@ namespace Needle.Typescript.GeneratedComponents
 		public string @plantName = "Blumen";
 		public string @plantLocation = "Blumen";
 		public string @plantDescription = "Blumen";
-		// public HTMLImageElement @image; → Could not resolve C# type
+		public UnityEngine.Texture @myImage;
+		public string @myImageURL;
 		public float @currentNumber = 3f;
 		public float @currentNumberTest = 54f;
 		public void start(){}
