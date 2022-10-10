@@ -14,16 +14,11 @@ export class PlantManager extends Behaviour {
     @serializeable(EventList)
     onClick?: EventList;
     plantId: string = "";
-    plantName: string = "Blumen";
-    plantLocation: string = "Blumen";
-    plantDescription: string = "Blumen";
+    plantName: string = "";
+    plantLocation: string = "";
+    plantDescription: string = "";
 
-
-    myImage?: Texture;
     myImageURL?: string;
-
-    currentNumber: number = 3;
-    currentNumberTest: number = 54;
 
 
 
@@ -32,8 +27,71 @@ export class PlantManager extends Behaviour {
         const journalButton = document.getElementById("journalButton") as HTMLInputElement;
         const journalContainer = document.getElementById("journal-container") as HTMLInputElement;
 
-       /* const textureLoader = new TextureLoader();
+        
+        const plantPage = document.getElementById(this.plantId) as HTMLInputElement;
+        console.log(this.plantDescription);
+        if (plantPage) {
+            plantPage.getElementsByClassName("plantName")[0].innerHTML = this.plantName;
+            if (plantPage.getElementsByClassName("plantLocation")[0])
+            plantPage.getElementsByClassName("plantLocation")[0].innerHTML = this.plantLocation;
+            console.log(plantPage.getElementsByClassName("plantLocation")[0].innerHTML);
+            if (plantPage.getElementsByClassName("plantDiscription")[0])
+            plantPage.getElementsByClassName("plantDiscription")[0].innerHTML = this.replaceUmlauts(this.plantDescription);
+            //console.log(plantPage.getElementsByClassName("plantImage")[0].src);
+            //console.log(this.myImage);
+            //const renderer = this.context.renderer;
+            // var dataURL = renderer.domElement.toDataURL();
+            plantPage.getElementsByClassName("plantImage")[0].src = this.myImageURL;
 
+        }
+        var journalActive = false;
+
+
+        journalButton.onclick = function () {
+
+            journalActive = !journalActive;
+            if (!journalActive) {
+                journalContainer.classList.remove("show");
+                journalContainer.classList.add("hide");
+
+            } else {
+                journalContainer.classList.remove("hide");
+                journalContainer.classList.add("show");
+            }
+
+
+        };
+
+    }
+
+     replaceUmlauts(str) {
+        return str
+          .replace(/\u00df/g, 'ss')
+          .replace(/\u00e4/g, 'ae')
+          .replace(/\u00f6/g, 'oe')
+          .replace(/\u00fc/g, 'ue')
+          .replace(/\u00c4/g, 'Ae')
+          .replace(/\u00d6/g, 'Oe')
+          .replace(/\u00dc/g, 'Ue');
+      }
+
+
+
+    onPointerClick() {
+        x++;
+        const plantCounterPanel = document.getElementById("plant-counter") as HTMLInputElement;
+        const plantName = document.getElementById("plant-name") as HTMLInputElement;
+        if (plantCounterPanel)
+            plantCounterPanel.innerHTML = x.toString();
+        this.onClick?.invoke();
+
+        if (plantName) {
+            plantName.innerHTML = this.plantName;
+        }
+    }
+}
+
+ /* const textureLoader = new TextureLoader();
         // load a texture
         const texture = textureLoader.load(
             this.myImage
@@ -55,48 +113,5 @@ export class PlantManager extends Behaviour {
         renderer.render(scene, camera);
         var dataURL = renderer.domElement.toDataURL();
         console.log(dataURL); */
-        const plantPage = document.getElementById(this.plantId) as HTMLInputElement;
-
-        if (plantPage) {
-            plantPage.getElementsByClassName("plantName")[0].innerHTML = this.plantName;
-            //console.log(plantPage.getElementsByClassName("plantImage")[0].src);
-            //console.log(this.myImage);
-            //const renderer = this.context.renderer;
-            // var dataURL = renderer.domElement.toDataURL();
-            plantPage.getElementsByClassName("plantImage")[0].src = this.myImageURL;
-
-        }
-        var journalActive = false;
-        journalButton.onclick = function () {
-
-            journalActive = !journalActive;
-            if (!journalActive) {
-                journalContainer.classList.remove("show");
-                journalContainer.classList.add("hide");
-
-            } else {
-                journalContainer.classList.remove("hide");
-                journalContainer.classList.add("show");
-            }
-
-
-        };
-
-    }
-
-
-    onPointerClick() {
-        x++;
-        const plantCounterPanel = document.getElementById("plant-counter") as HTMLInputElement;
-        const plantName = document.getElementById("plant-name") as HTMLInputElement;
-        if (plantCounterPanel)
-            plantCounterPanel.innerHTML = x.toString();
-        this.onClick?.invoke();
-
-        if (plantName) {
-            plantName.innerHTML = this.plantName;
-        }
-    }
-}
 
 

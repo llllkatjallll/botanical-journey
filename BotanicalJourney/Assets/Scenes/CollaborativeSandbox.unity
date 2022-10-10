@@ -670,6 +670,14 @@ PrefabInstance:
       propertyPath: myImageURL
       value: ../src/images/texture/Dyschoriste erecta_freige.png
       objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantDescription
+      value: Blumen 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Dyschoriste erecta_freige
@@ -721,6 +729,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: Dyschoriste erecta_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5607,6 +5619,10 @@ PrefabInstance:
       propertyPath: myImageURL
       value: ../src/images/texture/g_forster_plant3_freige.png
       objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -5682,6 +5698,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: g_forster_plant3_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.size
@@ -5861,6 +5881,14 @@ PrefabInstance:
       propertyPath: myImageURL
       value: ../src/images/texture/g_forster_plant4_freige.png
       objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantDescription
+      value: Test 9
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -5908,6 +5936,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: g_forster_plant4_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11508,6 +11540,10 @@ PrefabInstance:
       propertyPath: myImage
       value: 
       objectReference: {fileID: 2800000, guid: 63346e4a0533d6648a12dee6d924b84d, type: 3}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -11555,6 +11591,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: g_forster_plant5_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11712,6 +11752,10 @@ PrefabInstance:
       propertyPath: myImageURL
       value: ../src/images/texture/Aloe_vera_freige.png
       objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Aloe_vera_freige
@@ -11763,6 +11807,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: Aloe_vera_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11861,6 +11909,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -11911,7 +11963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11945,6 +11997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1150408497}
+  - component: {fileID: 1150408498}
   m_Layer: 0
   m_Name: PlantManager
   m_TagString: Untagged
@@ -11982,6 +12035,19 @@ Transform:
   m_Father: {fileID: 969208505}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1150408498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150408496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54394b5b9c9eb5489ea364c53c8ee34d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPrefab: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
 --- !u!1 &1211803451
 GameObject:
   m_ObjectHideFlags: 0
@@ -12185,6 +12251,10 @@ PrefabInstance:
       propertyPath: myImageURL
       value: ../src/images/texture/g_forster_plant2_freige.png
       objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: g_forster_plant2_freige
@@ -12264,6 +12334,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: g_forster_plant2_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12376,6 +12450,10 @@ PrefabInstance:
       propertyPath: myImageURL
       value: ../src/images/texture/g_forster_plant1_freige.png
       objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: g_forster_plant1_freige
@@ -12427,6 +12505,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: g_forster_plant1_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12771,6 +12853,10 @@ PrefabInstance:
       propertyPath: myImageURL
       value: ../src/images/texture/Striga_gesnerioides_freige.png
       objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Striga_gesnerioides_freige
@@ -12822,6 +12908,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: Striga_gesnerioides_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13006,103 +13096,10 @@ MonoBehaviour:
   SuppressExport: 0
   SmartExport: 0
   EmbedSkybox: 1
---- !u!1001 &1599256583
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1150408497}
-    m_Modifications:
-    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: myImage
-      value: 
-      objectReference: {fileID: 2800000, guid: 57f499c372b8e7c4eb6e9338822a9653, type: 3}
-    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: plantId
-      value: p1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: plantName
-      value: Begonia freige
-      objectReference: {fileID: 0}
-    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: myImageURL
-      value: ../src/images/texture/Begonia_freige.png
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: plantName
-      value: Begonia freige
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Name
-      value: Begonia_freige
-      objectReference: {fileID: 0}
-    - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8833ff9da3b329b458544887ad019625, type: 2}
-    - target: {fileID: 9222076742607873200, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8833ff9da3b329b458544887ad019625, type: 2}
-    - target: {fileID: 9222076742705539467, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8833ff9da3b329b458544887ad019625, type: 2}
-    - target: {fileID: 9222076742782658190, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8833ff9da3b329b458544887ad019625, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
 --- !u!4 &1599256584 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
-  m_PrefabInstance: {fileID: 1599256583}
+  m_CorrespondingSourceObject: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+  m_PrefabInstance: {fileID: 5871434066578517855}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1609064305
 GameObject:
@@ -13226,6 +13223,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Halocnemum_freige
@@ -13277,6 +13278,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: Halocnemum_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -13356,6 +13361,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Striga_gesnerioides_freige
@@ -13408,6 +13417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Striga_gesnerioides_freige
       objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -13451,6 +13464,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150408497}
     m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Polystachya_freige
@@ -13502,6 +13519,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: Polystachya_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14052,6 +14073,14 @@ PrefabInstance:
       propertyPath: myImageURL
       value: ../src/images/texture/Cotyledon_freige.png
       objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantDescription
+      value: "Test \xC4 \xD6 \xDC"
+      objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
       value: Cotyledon_freige
@@ -14103,6 +14132,10 @@ PrefabInstance:
     - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Name
       value: Cotyledon_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14234,6 +14267,18 @@ PrefabInstance:
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.969
       objectReference: {fileID: 0}
@@ -14277,6 +14322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Graderia_fruticosa_wiggle
       objectReference: {fileID: 0}
+    - target: {fileID: 693855846926938881, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 387445798233001564, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
@@ -14307,12 +14356,9 @@ MonoBehaviour:
       m_Calls: []
   plantId: 
   plantName: Blumen
-  plantLocation: Blumen
+  plantLocation: Leipzig
   plantDescription: Blumen
-  myImage: {fileID: 0}
   myImageURL: 
-  currentNumber: 3
-  currentNumberTest: 54
 --- !u!1001 &4473676541219362433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14405,3 +14451,76 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8218894175684400825, guid: 2bcc43beb6c02634dadc7ce5aeec5544, type: 3}
   m_PrefabInstance: {fileID: 4473676541219362433}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5871434066578517855
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1150408497}
+    m_Modifications:
+    - target: {fileID: 2546986697767135253, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: plantLocation
+      value: Leipzig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546986697767135253, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: plantDescription
+      value: "Ein ziemlich seltenes Buschgew\xE4chs mit glatter, grauer Rinde, an
+        dem sich die ovale, zugespitzten, leicht stachlige Bl\xE4tter axial gegen\xFCber
+        stehen. Die Bl\xFCten stehen sich auch axial gegen\xFCber. Sie sind Kelchf\xF6rmig
+        und haben eine dunkle violette Farbe. 1881, Botanische Zeichnung von Georg
+        Schweinfurth."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870363, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_Name
+      value: Begonia_freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350928550063870363, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5871434065895790424
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 57f499c372b8e7c4eb6e9338822a9653, type: 3}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantId
+      value: p1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Begonia freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: myImageURL
+      value: ../src/images/texture/Begonia_freige.png
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantLocation
+      value: Celle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantDescription
+      value: "Test \xC4 \xD6 \xDC Ein ziemlich seltenes Buschgew\xE4chs mit glatter,
+        grauer Rinde, an dem sich die ovale, zugespitzten, leicht stachlige Bl\xE4tter
+        axial gegen\xFCber stehen. Die Bl\xFCten stehen sich auch axial gegen\xFCber.
+        Sie sind Kelchf\xF6rmig und haben eine dunkle violette Farbe. 1881, Botanische
+        Zeichnung von Georg Schweinfurth."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: plantName
+      value: Begonia freige
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125441, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_Name
+      value: Begonia_freige Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741787125443, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222076741877730852, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8833ff9da3b329b458544887ad019625, type: 2}
+    - target: {fileID: 9222076742607873200, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8833ff9da3b329b458544887ad019625, type: 2}
+    - target: {fileID: 9222076742705539467, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8833ff9da3b329b458544887ad019625, type: 2}
+    - target: {fileID: 9222076742782658190, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8833ff9da3b329b458544887ad019625, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
