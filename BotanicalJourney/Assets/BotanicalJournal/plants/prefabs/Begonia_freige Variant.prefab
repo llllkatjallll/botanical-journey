@@ -13,27 +13,23 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: 57f499c372b8e7c4eb6e9338822a9653, type: 3}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantId
-      value: p1
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
-      value: Begonia freige
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: myImageURL
-      value: ../src/images/texture/Begonia_freige.png
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantLocation
-      value: Celle
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8224470965092269901, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantDescription
-      value: "Test \xC4 \xD6 \xDC Ein ziemlich seltenes Buschgew\xE4chs mit glatter,
-        grauer Rinde, an dem sich die ovale, zugespitzten, leicht stachlige Bl\xE4tter
-        axial gegen\xFCber stehen. Die Bl\xFCten stehen sich auch axial gegen\xFCber.
-        Sie sind Kelchf\xF6rmig und haben eine dunkle violette Farbe. 1881, Botanische
-        Zeichnung von Georg Schweinfurth."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9222076741787125440, guid: e847c2ab0f70564438f5b8766bcda4dd, type: 3}
       propertyPath: plantName
