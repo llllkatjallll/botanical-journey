@@ -13,7 +13,7 @@ Material:
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -57,6 +57,7 @@ Material:
     - _wiggle_speed: 2
     - _wiggle_strengh: 0.03
     m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseSettings: {r: 1, g: 1, b: 1, a: 0.01}
     - _Scale: {r: 1, g: 1, b: 0, a: 0}
     - _wiggle_range: {r: 0.2, g: 0.8, b: 0, a: 0}
