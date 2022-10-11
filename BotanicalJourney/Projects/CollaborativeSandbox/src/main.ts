@@ -1,1 +1,1 @@
-import "@needle-tools/engine/index";
+import "@needle-tools/engine";

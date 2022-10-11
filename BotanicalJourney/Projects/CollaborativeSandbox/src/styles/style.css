@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Caveat+Brush&family=Cedarville+Cursive&family=Herr+Von+Muellerhoff&family=Italianno&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 html {
     height: -webkit-fill-available;
@@ -34,25 +37,48 @@ body {
 
   .plantName{
     display: block;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 40px;
+    line-height: 1;
+
+    
     
   }
 
   .plantImage{
     display: block;
     width: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 150px;
+    margin-top: 3px;
+    margin-bottom: 10px;
    
   }
   .plantDiscription{
-    font-size: 0.7em;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 15px;
+    /*font-size: 0.7em; */
+    font-size: 20px;   
+    font-family: 'Kalam', cursive;
     line-height: 1.4em;
     hyphens: auto;
     -webkit-hyphens: auto;
+    padding: 5px;
+    
+    
   }
 
 
   .location-container{
     width: 100%;
-    padding-left:60px ;
+    /*padding-left:60px ;*/
+    background-color: rgba(128, 128, 128, 0.1);
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: 'Kalam', cursive;
+    margin-bottom: 6px;
+    margin-top: 3px;
+    padding-left: 5px;
   }
 
   .swiper-slide:nth-child(1n) {
@@ -72,7 +98,7 @@ body {
   }
 
   .swiper-slide:nth-child(5n) {
-    background-color: rgb(220, 189, 118);
+    background-color: rgb(240, 211, 145);
   }
 
   .swiper-slide:nth-child(6n) {
@@ -93,6 +119,14 @@ body {
 
   .swiper-slide:nth-child(10n) {
     background-color: rgb(240, 203, 185);
+  }
+
+  .swiper-slide:nth-child(11n) {
+      background-color: rgb(207, 229, 188);
+  }
+
+ .swiper-slide:nth-child(12n) {
+       background-color: rgb(166, 207, 166);
   }
 
 .journal-counter{
@@ -137,11 +171,18 @@ body {
     transform: translateX(-50%);
     z-index: 100;
     pointer-events: all;
+    background-color: bisque;
+    border-style: solid;
+    
+    border-color: rgb(247, 210, 165);
+    font-family: 'Kalam', cursive;
+    color: rgb(117, 96, 70);
 }
 
 #journal:hover{
-
+  
 }
+
 
 #journal-container{
     position: absolute; 
