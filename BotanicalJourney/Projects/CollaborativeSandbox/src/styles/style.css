@@ -33,6 +33,22 @@ body {
     font-size: 22px;
     font-weight: bold;
     color: #fff;
+    opacity: 1;
+   
+  }
+
+  .plant-info-container{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .unrevealed{
+    opacity: 0;
+    
   }
 
   .plantName{

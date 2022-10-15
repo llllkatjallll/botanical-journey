@@ -13,6 +13,7 @@ let x = 0;
 export class PlantManager extends Behaviour {
     @serializeable(EventList)
     onClick?: EventList;
+    plantPage?: HTMLInputElement;
     plantId: string = "";
     plantName: string = "";
     plantLocation: string = "";
@@ -28,20 +29,20 @@ export class PlantManager extends Behaviour {
         const journalContainer = document.getElementById("journal-container") as HTMLInputElement;
 
         
-        const plantPage = document.getElementById(this.plantId) as HTMLInputElement;
+         this.plantPage = document.getElementById(this.plantId) as HTMLInputElement;
         console.log(this.plantDescription);
-        if (plantPage) {
-            plantPage.getElementsByClassName("plantName")[0].innerHTML = this.plantName;
-            if (plantPage.getElementsByClassName("plantLocation")[0])
-            plantPage.getElementsByClassName("plantLocation")[0].innerHTML = this.plantLocation;
-            console.log(plantPage.getElementsByClassName("plantLocation")[0].innerHTML);
-            if (plantPage.getElementsByClassName("plantDiscription")[0])
-            plantPage.getElementsByClassName("plantDiscription")[0].innerHTML = this.replaceUmlauts(this.plantDescription);
-            //console.log(plantPage.getElementsByClassName("plantImage")[0].src);
+        if (this.plantPage) {
+            this.plantPage.getElementsByClassName("plantName")[0].innerHTML = this.plantName;
+            if (this.plantPage.getElementsByClassName("plantLocation")[0])
+            this.plantPage.getElementsByClassName("plantLocation")[0].innerHTML = this.plantLocation;
+            console.log(this.plantPage.getElementsByClassName("plantLocation")[0].innerHTML);
+            if (this.plantPage.getElementsByClassName("plantDiscription")[0])
+            this.plantPage.getElementsByClassName("plantDiscription")[0].innerHTML = this.replaceUmlauts(this.plantDescription);
+            //console.log(this.plantPage.getElementsByClassName("plantImage")[0].src);
             //console.log(this.myImage);
             //const renderer = this.context.renderer;
             // var dataURL = renderer.domElement.toDataURL();
-            plantPage.getElementsByClassName("plantImage")[0].src = this.myImageURL;
+            this.plantPage.getElementsByClassName("plantImage")[0].src = this.myImageURL;
 
         }
         var journalActive = false;
@@ -62,6 +63,12 @@ export class PlantManager extends Behaviour {
 
         };
 
+    }
+
+
+    fillPageWithInfo(){
+        if(this.plantPage)
+        this.plantPage.getElementsByClassName("plant-info-container")[0].classList.remove("unrevealed");
     }
 
      replaceUmlauts(str) {
@@ -91,27 +98,6 @@ export class PlantManager extends Behaviour {
     }
 }
 
- /* const textureLoader = new TextureLoader();
-        // load a texture
-        const texture = textureLoader.load(
-            this.myImage
-        );
 
-
-        const geometry = new PlaneGeometry(1, 1);
-        const material = new MeshStandardMaterial({
-            map: texture,
-        });
-        const plane = new Mesh(geometry, material);
-
-
-
-        const scene = new Scene();
-        scene.add(plane);
-        const camera = new PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-        const renderer = this.context.renderer;
-        renderer.render(scene, camera);
-        var dataURL = renderer.domElement.toDataURL();
-        console.log(dataURL); */
 
 
