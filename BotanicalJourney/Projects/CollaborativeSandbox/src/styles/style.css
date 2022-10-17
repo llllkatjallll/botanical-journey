@@ -110,7 +110,7 @@ body {
   }
 
   .swiper-slide:nth-child(2n) {
-    background-color: rgb(198, 177, 152);
+    background-color: rgb(205 229 184);
     background-image: url(../images//cardboard.png);
     
   }

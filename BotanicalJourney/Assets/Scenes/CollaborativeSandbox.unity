@@ -2704,7 +2704,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1150408497}
-  - component: {fileID: 1150408498}
   m_Layer: 0
   m_Name: PlantManager
   m_TagString: Untagged
@@ -2740,19 +2739,6 @@ Transform:
   m_Father: {fileID: 969208505}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1150408498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1150408496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54394b5b9c9eb5489ea364c53c8ee34d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myPrefab: {fileID: 3350928550063870361, guid: 3e439e82c54b8ef4daa56b74d66da3b6, type: 3}
 --- !u!1 &1211803451
 GameObject:
   m_ObjectHideFlags: 0
