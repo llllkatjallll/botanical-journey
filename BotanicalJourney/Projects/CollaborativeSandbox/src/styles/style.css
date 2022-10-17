@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Caveat+Brush&family=Cedarville+Cursive&family=Herr+Von+Muellerhoff&family=Italianno&family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+
 
 html {
     height: -webkit-fill-available;
@@ -32,7 +34,7 @@ body {
     align-items: center;
     font-size: 22px;
     font-weight: bold;
-    color: #fff;
+    color: rgb(68, 68, 68);
     opacity: 1;
    
   }
@@ -71,16 +73,17 @@ body {
    
   }
   .plantDiscription{
-    background-color: rgba(128, 128, 128, 0.1);
+    /*background-color: rgba(128, 128, 128, 0.1);*/
     border-radius: 15px;
     /*font-size: 0.7em; */
-    font-size: 20px;   
-    font-family: 'Kalam', cursive;
+    font-size: 26px;   
+    font-family: 'Square Peg', cursive;
+    
     line-height: 1.4em;
     hyphens: auto;
     -webkit-hyphens: auto;
     padding: 5px;
-    
+      
     
   }
 
@@ -88,61 +91,78 @@ body {
   .location-container{
     width: 100%;
     /*padding-left:60px ;*/
-    background-color: rgba(128, 128, 128, 0.1);
-    font-size: 20px;
+    /*background-color: rgba(128, 128, 128, 0.1);*/
+    font-size: 26px;
     border-radius: 15px;
-    font-family: 'Kalam', cursive;
+    font-family: 'Square Peg', cursive;
+    
     margin-bottom: 6px;
     margin-top: 3px;
     padding-left: 5px;
+    
   }
 
   .swiper-slide:nth-child(1n) {
     background-color: rgb(203, 199, 167);
+    background-image: url(../images//cardboard.png);
+   
+    
   }
 
   .swiper-slide:nth-child(2n) {
     background-color: rgb(198, 177, 152);
+    background-image: url(../images//cardboard.png);
+    
   }
 
   .swiper-slide:nth-child(3n) {
     background-color: rgb(240, 211, 176);
+    background-image: url(../images//cardboard.png);
   }
 
   .swiper-slide:nth-child(4n) {
     background-color: rgb(232, 202, 161);
+    background-image: url(../images//cardboard.png);
   }
 
   .swiper-slide:nth-child(5n) {
     background-color: rgb(240, 211, 145);
+    background-image: url(../images//cardboard.png);
   }
 
   .swiper-slide:nth-child(6n) {
     background-color: rgb(247, 215, 188);
+    background-image: url(../images//cardboard.png);
   }
 
   .swiper-slide:nth-child(7n) {
     background-color: rgb(246, 205, 156);
+    background-image: url(../images//cardboard.png);
   }
 
   .swiper-slide:nth-child(8n) {
     background-color: rgb(239, 215, 190);
+    background-image: url(../images//cardboard.png);
   }
 
   .swiper-slide:nth-child(9n) {
     background-color: rgb(241, 205, 176);
+    background-image: url(../images//cardboard.png);
   }
 
   .swiper-slide:nth-child(10n) {
     background-color: rgb(240, 203, 185);
+    background-image: url(../images//cardboard.png);
   }
 
   .swiper-slide:nth-child(11n) {
       background-color: rgb(207, 229, 188);
+      background-image: url(../images//cardboard.png);
   }
 
  .swiper-slide:nth-child(12n) {
        background-color: rgb(166, 207, 166);
+      background-image: url(../images//cardboard.png);
   }
 
 .journal-counter{
