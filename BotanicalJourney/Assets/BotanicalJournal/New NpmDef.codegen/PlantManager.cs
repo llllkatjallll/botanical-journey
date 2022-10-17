@@ -15,6 +15,10 @@ namespace Needle.Typescript.GeneratedComponents
 		public string @plantDescription = "";
 		public string @myImageURL;
 		public void start(){}
+		public void update(){}
+		public void changePlantPosition(){}
+		public void randomIntFromInterval(object @min, object @max){}
+		public void newGrowingCircle(){}
 		public void fillPageWithInfo(){}
 		public void replaceUmlauts(object @str){}
 		public void onPointerClick(){}

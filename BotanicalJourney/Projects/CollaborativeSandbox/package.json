@@ -2,16 +2,16 @@
   "name": "my-project",
   "version": "1.0.0",
   "scripts": {
-    "start": "vite --host",
-    "build:dev": "tsc && vite build && npm run copy-files",
-    "build:production": "npm run build:dev && npm run pack-gltf",
-    "serve": "vite preview",
-    "copy-files": "copy-files-from-to",
-    "pack-gltf": "node node_modules/@needle-tools/engine/plugins/gltf-packer.mjs"
-  },
+	  "start": "vite --host",
+	  "build:dev": "tsc && vite build && npm run copy-files",
+	  "build:production": "npm run build:dev && npm run pack-gltf",
+	  "serve": "vite preview",
+	  "copy-files": "copy-files-from-to",
+	  "pack-gltf": "npm run pack-gltf --prefix node_modules/@needle-tools/engine"
+	},
   "dependencies": {
-	  "@needle-tools/engine": "file:../../Library/PackageCache/com.needle.engine@2.21.0-pre/package~",
-	  "three": "file:../../Library/PackageCache/com.needle.engine@2.21.0-pre/package~/node_modules/three",
+	  "@needle-tools/engine": "file:../../Library/PackageCache/com.needle.engine@2.34.0-pre/package~",
+	  "three": "file:../../Library/PackageCache/com.needle.engine@2.34.0-pre/package~/node_modules/three",
 	  "new-npmdef": "file:../../Assets/BotanicalJournal/New NpmDef~"
 	},
   "devDependencies": {

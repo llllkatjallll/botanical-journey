@@ -1,10 +1,11 @@
-import { Behaviour, serializeable } from "@needle-tools/engine";
+import { Behaviour, GameObject, serializeable } from "@needle-tools/engine";
 import { Texture } from "three";
 import { PlaneGeometry, MeshStandardMaterial, DoubleSide, Mesh, Scene, TextureLoader,PerspectiveCamera } from "three";
 import { Renderer } from "@needle-tools/engine/engine-components/Renderer";
 import { EventList } from "@needle-tools/engine/engine-components/EventList";
 import { PointerEventData } from "@needle-tools/engine/engine-components/ui/PointerEvents";
 import { textureToCanvas } from "@needle-tools/engine/engine/engine_three_utils";
+import { Animator } from "@needle-tools/engine/engine-components/Animator";
 
 
 let x = 0;
@@ -34,10 +35,10 @@ export class PlantManager extends Behaviour {
         if (this.plantPage) {
             this.plantPage.getElementsByClassName("plantName")[0].innerHTML = this.plantName;
             if (this.plantPage.getElementsByClassName("plantLocation")[0])
-            this.plantPage.getElementsByClassName("plantLocation")[0].innerHTML = this.plantLocation;
-            console.log(this.plantPage.getElementsByClassName("plantLocation")[0].innerHTML);
+            //this.plantPage.getElementsByClassName("plantLocation")[0].innerHTML = this.plantLocation;
+            //console.log(this.plantPage.getElementsByClassName("plantLocation")[0].innerHTML);
             if (this.plantPage.getElementsByClassName("plantDiscription")[0])
-            this.plantPage.getElementsByClassName("plantDiscription")[0].innerHTML = this.replaceUmlauts(this.plantDescription);
+           // this.plantPage.getElementsByClassName("plantDiscription")[0].innerHTML = this.replaceUmlauts(this.plantDescription);
             //console.log(this.plantPage.getElementsByClassName("plantImage")[0].src);
             //console.log(this.myImage);
             //const renderer = this.context.renderer;
@@ -59,10 +60,55 @@ export class PlantManager extends Behaviour {
                 journalContainer.classList.remove("hide");
                 journalContainer.classList.add("show");
             }
-
-
         };
 
+        this.newGrowingCircle();
+
+    }
+
+    update(){
+      
+    }
+
+    changePlantPosition(){
+        let randomX = this.randomIntFromInterval(-4.5, 4.5);
+        let randomZ = this.randomIntFromInterval(-4.5, 4.5);
+        this.gameObject.position.x = randomX;
+        this.gameObject.position.z = randomZ;
+
+    }
+
+     randomIntFromInterval(min, max) { // min and max included 
+        return Math.floor(Math.random() * (max - min + 1) + min)
+      }
+
+    newGrowingCircle(){
+        //create random number for plants to wait
+        const plantAnimator =  GameObject.getComponent(this.gameObject, Animator);
+        
+        const growWait = Math.random()*30000;
+        const idleWait =  10000 + Math.random()*20000;
+        const speed = Math.random();
+        
+        const sleep = async (milliseconds) => {
+            await new Promise(resolve => {
+                return setTimeout(resolve, milliseconds)
+            });
+        };
+        
+        plantAnimator?.SetSpeed(speed);
+        const waitNow = async () => {
+            await sleep(growWait); 
+            plantAnimator?.SetTrigger("grow");
+            await sleep(idleWait); 
+            plantAnimator?.SetTrigger("shrink");
+            await sleep(8000); 
+            this.changePlantPosition();
+            this.newGrowingCircle();
+
+        }
+
+        waitNow();
     }
 
 
