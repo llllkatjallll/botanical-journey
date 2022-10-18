@@ -48,19 +48,22 @@ export class PlantManager extends Behaviour {
         }
         var journalActive = false;
 
-
+        let self = this;
         this.journalButton.onclick = function () {
 
             document.getElementById("journalButton")?.classList.remove("pulse");
 
             journalActive = !journalActive;
+            
             if (!journalActive) {
                 journalContainer.classList.remove("show");
                 journalContainer.classList.add("hide");
+                self.journalButton!.innerHTML="Journal";
 
             } else {
                 journalContainer.classList.remove("hide");
                 journalContainer.classList.add("show");
+                self.journalButton!.innerHTML="Zurück";
             }
             PlantManager.allowClick = !journalActive;
         };
@@ -168,7 +171,7 @@ export class PlantManager extends Behaviour {
 
     goToSlide(){
         let index = parseInt(this.plantId.substring(1));
-        swiper.slideTo(index-1, 2000, true);
+        swiper.slideTo(index, 2000, true);
         console.log("GO TO SLIDE" + index);
         this.highlightJournal();
     }
