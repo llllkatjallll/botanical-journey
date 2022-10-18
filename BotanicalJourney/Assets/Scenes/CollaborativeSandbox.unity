@@ -206,46 +206,6 @@ PrefabInstance:
         Kelch  und eine r\xF6hrenf\xF6rmige Blumenkrone, die lila bis blau farbig
         ist. 1772/73, Botanische Zeichnung von Georg Forster. "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 26191829}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 26191830}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &26191828 stripped
@@ -253,22 +213,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 26191827}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &26191829 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 26191827}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &26191830 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 26191827}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &57926136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -351,46 +295,6 @@ PrefabInstance:
         Gew\xE4chs auf der weiten Sandfl\xE4che.1864, Botanische Zeichnung von Georg
         Schweinfurth. "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 57926138}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 57926139}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &57926137 stripped
@@ -398,22 +302,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 57926136}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &57926138 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 57926136}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &57926139 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 57926136}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &64774967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -594,46 +482,6 @@ PrefabInstance:
         Rand. Bl\xFCtenbl\xE4tter sind Gelb bis Orange mit Dunkelrotem bis Violettem
         Grund. Botanische Zeichnung von Georg Forster. "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 81527223}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 81527224}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &81527222 stripped
@@ -641,22 +489,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 81527221}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &81527223 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 81527221}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &81527224 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 81527221}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &125888522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -739,46 +571,6 @@ PrefabInstance:
         oder elliptisch und variieren in der Textur. Die orchideef\xF6rmigen Bl\xFCten
         sind gelb. 1892, Botanische Zeichnung von Georg Schweinfurth. "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 125888524}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 125888525}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &125888523 stripped
@@ -786,22 +578,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 125888522}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &125888524 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 125888522}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &125888525 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 125888522}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &207337208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -885,46 +661,6 @@ PrefabInstance:
         Die Bl\xFCten sind hellila bis wei\xDF.  Botanische Zeichnung von Georg Forster,
         1772.  "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 207337210}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 207337211}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &207337209 stripped
@@ -932,22 +668,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 207337208}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &207337210 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 207337208}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &207337211 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 207337208}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &219249912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1027,38 +747,6 @@ PrefabInstance:
         sind Kelchf\xF6rmig und haben eine dunkle violette Farbe. 1881, Botanische
         Zeichnung von Georg Schweinfurth. "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 219249914}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &219249913 stripped
@@ -1066,17 +754,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 219249912}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &219249914 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 219249912}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &219327688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,7 +1284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: myImageURL
-      value: ../src/images/texture/Aloe_vera_freige.png
+      value: ../src/images/Aloe_vera_freige.png
       objectReference: {fileID: 0}
     - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: plantLocation
@@ -1621,88 +1298,11 @@ PrefabInstance:
         ragt aus den Bl\xE4ttern heraus. Die r\xF6hrenf\xF6migen gelben Bl\xFCten
         sind in einer Traube angeordnet. 1888, Botanische Zeichnung von Georg Schweinfurth"
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 426499352}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 426499353}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 426499354}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &426499351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 426499350}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &426499352 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 426499350}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &426499353 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 426499350}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 426499354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &426499354 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 693855846926938881, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 426499350}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &516319703
@@ -2519,7 +2119,7 @@ Transform:
   - {fileID: 2052682673}
   - {fileID: 1150408497}
   m_Father: {fileID: 1597275518}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &969208506
 MonoBehaviour:
@@ -2754,7 +2354,6 @@ Transform:
   - {fileID: 2141282449}
   - {fileID: 81527222}
   - {fileID: 2014416988}
-  - {fileID: 1693565213}
   - {fileID: 207337209}
   - {fileID: 26191828}
   - {fileID: 219249913}
@@ -2910,46 +2509,6 @@ PrefabInstance:
         sind wei\xDFlich, rosa oder hellblau. 1880, Botanische Zeichnung von Georg
         Schweinfurth. "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1243218251}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1243218252}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &1243218250 stripped
@@ -2957,22 +2516,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 1243218249}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1243218251 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 1243218249}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1243218252 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 1243218249}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1294452952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3595,6 +3138,7 @@ Transform:
   - {fileID: 1211803453}
   - {fileID: 1459212022}
   - {fileID: 1139443096}
+  - {fileID: 1693565213}
   - {fileID: 969208505}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -3734,11 +3278,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1150408497}
+    m_TransformParent: {fileID: 1597275518}
     m_Modifications:
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3784,6 +3328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: g_forster_plant3
       objectReference: {fileID: 0}
+    - target: {fileID: 693855846926938881, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1342616153847485140, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -3792,46 +3340,6 @@ PrefabInstance:
       propertyPath: plantId
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1693565214}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1693565215}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &1693565213 stripped
@@ -3839,22 +3347,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 1693565212}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1693565214 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 1693565212}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1693565215 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 1693565212}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1786657968
 GameObject:
   m_ObjectHideFlags: 0
@@ -4097,46 +3589,6 @@ PrefabInstance:
         gelblich, die Bl\xFCtenbl\xE4tter sind leuchtend rot. Botanische Zeichnung
         von Georg Schweinfurth, 1891. "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1880425724}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1880425725}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &1880425723 stripped
@@ -4144,22 +3596,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 1880425722}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1880425724 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 1880425722}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1880425725 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 1880425722}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1963998652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4246,46 +3682,6 @@ PrefabInstance:
         und die Bl\xFCten sind auffallend rosa. 1881, Botanische Zeichnung von Georg
         Schweinfurth  "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1963998654}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1963998655}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &1963998653 stripped
@@ -4293,22 +3689,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 1963998652}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1963998654 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 1963998652}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1963998655 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 1963998652}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1992712274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4497,58 +3877,6 @@ PrefabInstance:
         Bl\xE4tter sind bis zu 120 mm breit, die Adern verlaufen strahlenf\xF6rmig
         von der Mitte aus, sie schmecken pfeffrig und haben oft Insektenl\xF6cher. "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2014416989}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 2014416990}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: touched
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &2014416988 stripped
@@ -4556,22 +3884,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 2014416987}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2014416989 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 2014416987}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2014416990 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 2014416987}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2052682669
 GameObject:
   m_ObjectHideFlags: 0
@@ -5048,46 +4360,6 @@ PrefabInstance:
         Der Kelch ist r\xF6hrenf\xF6rmig und ca. 8-12 mm lang. Die Bl\xFCte ist blau
         bis violett. 1880, Botanische Zeichnung von Georg Schweinfurth. "
       objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2141282450}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 2141282451}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: fillPageWithInfo
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Needle.Typescript.GeneratedComponents.PlantManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-      propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
 --- !u!4 &2141282449 stripped
@@ -5095,22 +4367,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
   m_PrefabInstance: {fileID: 2141282448}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2141282450 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 387445798233001555, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 2141282448}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2141282451 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
-  m_PrefabInstance: {fileID: 2141282448}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad4924ebc3e504ea391fe595d24e0fbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &4473676541219362433
 PrefabInstance:
   m_ObjectHideFlags: 0

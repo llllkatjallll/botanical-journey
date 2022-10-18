@@ -18,5 +18,4 @@ MonoBehaviour:
     - ProjectPath: Projects/CollaborativeSandbox
     BuilderScene: 
   Projects:
-  - ProjectPath: Library/CollabSandbox
   - ProjectPath: Projects/CollaborativeSandbox

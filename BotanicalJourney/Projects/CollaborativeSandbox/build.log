@@ -1,6 +1,6 @@
 
 > my-project@1.0.0 build:production
-> npm run build:dev && npm run pack-gltf
+> npm run build:dev && npm run pack-gltf "C:\\Program Files (x86)\\KTX-Software\\bin"
 
 
 > my-project@1.0.0 build:dev
@@ -8,18 +8,19 @@
 
 vite v2.6.4 building for production...
 transforming...
-✓ 268 modules transformed.
+✓ 282 modules transformed.
 rendering chunks...
-dist/index.html                  1.41 KiB
-dist/assets/index.f2265946.css   1.58 KiB / gzip: 0.66 KiB
-dist/assets/index.309411c1.js    463.98 KiB / gzip: 129.59 KiB
-dist/assets/vendor.ffa7ba1b.js   1135.87 KiB / gzip: 305.00 KiB
+dist/assets/cardboard.73d3b9c2.png   198.66 KiB
+dist/index.html                      31.42 KiB
+dist/assets/index.c20f26d5.css       5.26 KiB / gzip: 1.53 KiB
+dist/assets/index.28b3ac6b.js        517.43 KiB / gzip: 143.87 KiB
+dist/assets/vendor.7aeb498d.js       1194.53 KiB / gzip: 329.28 KiB
 
 ✨ [vite-plugin-compression]:algorithm=gzip - compressed file successfully: 
-./dist/assets/index.f2265946.css.gz   1.58kb / gzip: 0.66kb
-./dist/index.html.gz                  1.41kb / gzip: 0.64kb
-./dist/assets/index.309411c1.js.gz    463.98kb / gzip: 129.26kb
-./dist/assets/vendor.ffa7ba1b.js.gz   1135.87kb / gzip: 304.12kb
+./dist/assets/index.c20f26d5.css.gz   5.26kb / gzip: 1.53kb
+./dist/index.html.gz                  31.42kb / gzip: 1.48kb
+./dist/assets/index.28b3ac6b.js.gz    517.44kb / gzip: 143.46kb
+./dist/assets/vendor.7aeb498d.js.gz   1194.53kb / gzip: 328.38kb
 
 
 
@@ -69,18 +70,103 @@ Starting copy operation in "default" mode:
  ✓ Already exists dist/include/three-mesh-ui-assets/shift.png
 
 > my-project@1.0.0 pack-gltf
-> node node_modules/@needle-tools/engine/plugins/gltf-packer.mjs
+> npm run pack-gltf --prefix node_modules/@needle-tools/engine "C:\\\\Program Files (x86)\\\\KTX-Software\\\\bin"
 
+
+> @needle-tools/engine@1.0.0-pre pack-gltf
+> node node_modules/@needle-tools/gltf-transform-extensions/index.mjs "C:\\\\\\\\Program Files (x86)\\\\\\\\KTX-Software\\\\\\\\bin"
+
+Failed parsing commandline args
+You can define a toktx search path by adding --toktxPath <path> to the command line. The command may appear multiple times
 Debug false
-GLB files in dist/assets: [ 'dist/assets/DefaultAvatar.glb', 'dist/assets/scene.glb' ]
-now packing: dist/assets/DefaultAvatar.glb
-[NEEDLE_gameobject_data] READ
-[NEEDLE_components] READ
-[NEEDLE_lightmaps] READ
-found referenced texture textures/0 0
-[NEEDLE_lighting_settings] READ
-
-error: Command "toktx" not found. Please install KTX-Software, from:
-
-https://github.com/KhronosGroup/KTX-Software
-
+Prefix basepath: E:\GIT\botanical-journey\BotanicalJourney\Projects\CollaborativeSandbox
+GLB files in E:\GIT\botanical-journey\BotanicalJourney\Projects\CollaborativeSandbox\dist\assets: [
+  'E:/GIT/botanical-journey/BotanicalJourney/Projects/CollaborativeSandbox/dist/assets/DefaultAvatar.glb',
+  'E:/GIT/botanical-journey/BotanicalJourney/Projects/CollaborativeSandbox/dist/assets/scene.glb'
+]
+now packing: E:/GIT/botanical-journey/BotanicalJourney/Projects/CollaborativeSandbox/dist/assets/DefaultAvatar.glb
+READ NEEDLE_gameobject_data
+READ NEEDLE_components
+READ NEEDLE_lightmaps
+READ NEEDLE_lighting_settings
+READ EXT_texture_exr
+toktx: Found KTX-Software v4.0.0.
+toktx:texture(1/1): Slots → []
+[KHR_draco_mesh_compression] Compression options: {"method":1,"encodeSpeed":5,"decodeSpeed":5,"quantizationBits":{"POSITION":14,"NORMAL":10,"COLOR":8,"TEX_COORD":12,"GENERIC":12},"quantizationVolume":"mesh"}
+[KHR_draco_mesh_compression] Compressed 2 primitives.
+WRITE NEEDLE_gameobject_data
+WRITE NEEDLE_components
+WRITE NEEDLE_lightmaps
+WRITE NEEDLE_lighting_settings
+WRITE EXT_texture_exr
+packing done E:/GIT/botanical-journey/BotanicalJourney/Projects/CollaborativeSandbox/dist/assets/DefaultAvatar.glb
+now packing: E:/GIT/botanical-journey/BotanicalJourney/Projects/CollaborativeSandbox/dist/assets/scene.glb
+READ KHR_animation_pointer
+READ NEEDLE_techniques_webgl
+READ NEEDLE_gameobject_data
+READ NEEDLE_components
+READ NEEDLE_persistent_assets
+READ NEEDLE_lightmaps
+READ NEEDLE_lighting_settings
+READ EXT_texture_exr
+toktx: Found KTX-Software v4.0.0.
+toktx:texture(1/17): Slots → []
+toktx:texture(2/17): Slots → []
+toktx:texture(3/17): Slots → [baseColorTexture]
+toktx:texture(4/17): Slots → []
+toktx:texture(5/17): Slots → []
+toktx:texture(6/17): Slots → []
+toktx:texture(7/17): Slots → []
+toktx:texture(8/17): Slots → []
+toktx:texture(9/17): Slots → []
+toktx:texture(10/17): Slots → []
+toktx:texture(11/17): Slots → []
+toktx:texture(12/17): Slots → []
+toktx:texture(13/17): Slots → []
+toktx:texture(14/17): Slots → []
+toktx:texture(15/17): Slots → []
+toktx:texture(16/17): Slots → []
+toktx:texture(2/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-glTKGY5ixwCB-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-tETB9SzogOnn-.png
+toktx:texture(3/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-QobAqYY1rjYZ-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-7eVjD47Mor4a-.png
+toktx:texture(4/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-1UX1QkcIuDou-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-p4Im2uMpjNIo-.png
+toktx:texture(5/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-47Nb4um5FmHo-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-3tNt8OyBAxtN-.png
+toktx:texture(6/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-mF95pel4YpNL-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-8TQH4hSSAsoJ-.png
+toktx:texture(7/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-A14XARWfInjl-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-5BtFwCGnFjuJ-.png
+toktx:texture(11/17): Spawning → toktx --genmipmap --bcmp --resize 1536x1536 --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-CZbytDOpt4UB-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-73goc0A8LVtr-.png
+toktx:texture(14/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-15GUe0Fox5Jx-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-K6ep3d2ZQEnW-.png
+toktx:texture(12/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-UUGIOofjs6Sk-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-7IBqTTSFjKk6-.png
+toktx:texture(15/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-NcbjU3EJnMhV-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-whycNopcp65S-.png
+toktx:texture(16/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-CcfNB1X400Ax-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-KTRpsRW0kZUK-.png
+toktx:texture(1/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-t5Su9FVamqwc-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-H6TCs6LZsusT-.png
+toktx:texture(8/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-zoQ1gg8RDcQi-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-w4eTs8CQC6bo-.png
+toktx:texture(9/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-yC8mu9pRzWEo-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-eiOq19U7VwLq-.png
+toktx:texture(10/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-tyXcaxy3lG5r-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-5TSimGbJZyJe-.png
+toktx:texture(13/17): Spawning → toktx --genmipmap --bcmp --threads 2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-MlYI66c7yRHn-.ktx2 C:\Users\rempel\AppData\Local\Temp\tmp-31784-2CailIpfTcH3-.png
+toktx:texture(2/17): 80 Bytes → 475 Bytes bytes
+toktx:texture(17/17): Slots → []
+toktx:texture(4/17): 54.6 KB → 13.24 KB bytes
+toktx:texture(3/17): 54.6 KB → 13.24 KB bytes
+toktx:texture(6/17): 289.52 KB → 58.77 KB bytes
+toktx:texture(14/17): 140.07 KB → 33.94 KB bytes
+toktx:texture(7/17): 176.75 KB → 44.39 KB bytes
+toktx:texture(15/17): 172.43 KB → 44.03 KB bytes
+toktx:texture(16/17): 309.72 KB → 64.79 KB bytes
+toktx:texture(5/17): 222.16 KB → 47.37 KB bytes
+toktx:texture(12/17): 452.44 KB → 90.65 KB bytes
+toktx:texture(8/17): 526.31 KB → 103.26 KB bytes
+toktx:texture(13/17): 1.13 MB → 155.86 KB bytes
+toktx:texture(10/17): 1.15 MB → 147.07 KB bytes
+toktx:texture(1/17): 754.44 KB → 111.17 KB bytes
+toktx:texture(11/17): 389.33 KB → 82.08 KB bytes
+toktx:texture(9/17): 1.14 MB → 162.67 KB bytes
+[KHR_draco_mesh_compression] Compression options: {"method":1,"encodeSpeed":5,"decodeSpeed":5,"quantizationBits":{"POSITION":14,"NORMAL":10,"COLOR":8,"TEX_COORD":12,"GENERIC":12},"quantizationVolume":"mesh"}
+[KHR_draco_mesh_compression] Compressed 31 primitives.
+WRITE KHR_animation_pointer
+WRITE NEEDLE_techniques_webgl
+WRITE NEEDLE_gameobject_data
+WRITE NEEDLE_components
+WRITE NEEDLE_persistent_assets
+WRITE NEEDLE_lightmaps
+WRITE NEEDLE_lighting_settings
+WRITE EXT_texture_exr
+packing done E:/GIT/botanical-journey/BotanicalJourney/Projects/CollaborativeSandbox/dist/assets/scene.glb

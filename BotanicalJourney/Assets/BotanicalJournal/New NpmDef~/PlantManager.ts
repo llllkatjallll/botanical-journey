@@ -7,11 +7,11 @@ import { PointerEventData } from "@needle-tools/engine/engine-components/ui/Poin
 import { textureToCanvas } from "@needle-tools/engine/engine/engine_three_utils";
 import { Animator } from "@needle-tools/engine/engine-components/Animator";
 
-
-let x = 0;
-
-
 export class PlantManager extends Behaviour {
+
+    public static count : number = 0;
+    public static allowClick : boolean = true;
+
     @serializeable(EventList)
     onClick?: EventList;
     plantPage?: HTMLInputElement;
@@ -21,12 +21,12 @@ export class PlantManager extends Behaviour {
     plantDescription: string = "";
 
     myImageURL?: string;
-
+     journalButton?: HTMLInputElement;
 
 
     start() {
 
-        const journalButton = document.getElementById("journalButton") as HTMLInputElement;
+         this.journalButton = document.getElementById("journalButton") as HTMLInputElement;
         const journalContainer = document.getElementById("journal-container") as HTMLInputElement;
 
         
@@ -49,7 +49,9 @@ export class PlantManager extends Behaviour {
         var journalActive = false;
 
 
-        journalButton.onclick = function () {
+        this.journalButton.onclick = function () {
+
+            document.getElementById("journalButton")?.classList.remove("pulse");
 
             journalActive = !journalActive;
             if (!journalActive) {
@@ -60,6 +62,7 @@ export class PlantManager extends Behaviour {
                 journalContainer.classList.remove("hide");
                 journalContainer.classList.add("show");
             }
+            PlantManager.allowClick = !journalActive;
         };
 
         this.newGrowingCircle();
@@ -113,8 +116,26 @@ export class PlantManager extends Behaviour {
 
 
     fillPageWithInfo(){
-        if(this.plantPage)
-        this.plantPage.getElementsByClassName("plant-info-container")[0].classList.remove("unrevealed");
+        if(this.plantPage){
+            this.plantPage.getElementsByClassName("plant-placeholder-container")[0].classList.add("disable");
+        
+        const sleep = async (milliseconds) => {
+            await new Promise(resolve => {
+                return setTimeout(resolve, milliseconds)
+            });
+        };
+
+        const waitNow = async () => {
+            await sleep(2500); 
+            this.plantPage?.getElementsByClassName("plant-info-container")[0].classList.remove("unrevealed");
+            
+        }
+
+        waitNow();
+
+
+        
+        }
     }
 
      replaceUmlauts(str) {
@@ -131,16 +152,35 @@ export class PlantManager extends Behaviour {
 
 
     onPointerClick() {
-        x++;
+        if (!PlantManager.allowClick) return;
+
+        PlantManager.count++;
         const plantCounterPanel = document.getElementById("plant-counter") as HTMLInputElement;
         const plantName = document.getElementById("plant-name") as HTMLInputElement;
         if (plantCounterPanel)
-            plantCounterPanel.innerHTML = x.toString();
+            plantCounterPanel.innerHTML = PlantManager.count.toString();
         this.onClick?.invoke();
 
         if (plantName) {
             plantName.innerHTML = this.plantName;
         }
+    }
+
+    goToSlide(){
+        let index = parseInt(this.plantId.substring(1));
+        swiper.slideTo(index-1, 2000, true);
+        console.log("GO TO SLIDE" + index);
+        this.highlightJournal();
+    }
+
+    highlightJournal(){
+     this.journalButton?.classList.add("pulse");
+
+    }
+
+    playScribbleSound(){
+        var audio = new Audio('./scribble_sound.wav');
+        audio.play();
     }
 }
 
