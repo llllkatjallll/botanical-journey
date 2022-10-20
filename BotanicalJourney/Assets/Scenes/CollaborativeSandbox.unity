@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -222,7 +222,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -498,7 +498,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -587,7 +587,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -677,7 +677,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2434,7 +2434,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 210194307558681019, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2490,7 +2490,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: plantName
-      value: Striga Gesnerioides (Willd.) Vatke
+      value: Striga Gesnerioides Vatke
       objectReference: {fileID: 0}
     - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: myImageURL
@@ -3571,7 +3571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: plantName
-      value: Cotyledon Barbeyi Schwein. ex penz.
+      value: Cotyledon Barbeyi Schwein.
       objectReference: {fileID: 0}
     - target: {fileID: 7498370922318466256, guid: e5b380ffaf0e81b489401867d42f79d4, type: 3}
       propertyPath: myImageURL

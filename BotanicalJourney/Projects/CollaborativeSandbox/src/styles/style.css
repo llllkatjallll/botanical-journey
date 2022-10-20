@@ -71,15 +71,42 @@ body {
     
   }
 
+  .titel{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 50px;
+    padding-bottom: 60px;
+  }
+
+  .start{
+      background-color: rgba(203, 199, 167, 0.719);
+        border-radius: 20px;
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+        font-family: 'Square Peg', cursive;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #startseite{
+      background-image: url(../images/title.png);
+    }
+
+   .start_text{
+
+      margin-left: 10px;
+      padding-top: 15px;
+   
+  }
+
 
   .plantName{
     display: block;
     font-family: 'Herr Von Muellerhoff', cursive;
     font-size: 40px;
     line-height: 1;
-
-    
-    
+   
   }
 
   .plantImage{
@@ -124,8 +151,8 @@ body {
   .swiper-slide:nth-child(1n) {
     background-color: rgb(203, 199, 167);
     background-image: url(../images//cardboard.png);
-   
-    
+    /*background-image: url(../images/title.png);*/
+  
   }
 
   .swiper-slide:nth-child(2n) {
