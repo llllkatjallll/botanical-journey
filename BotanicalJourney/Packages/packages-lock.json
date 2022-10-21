@@ -1,19 +1,19 @@
 {
   "dependencies": {
     "com.needle.engine": {
-      "version": "2.34.0-pre",
+      "version": "2.35.3-pre",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.needle.tools"
     },
     "com.needle.engine-exporter": {
-      "version": "2.36.0-pre",
+      "version": "2.38.1-pre",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.needle.engine": "2.34.0-pre",
-        "org.khronos.unitygltf": "1.17.0-pre",
+        "com.needle.engine": "2.35.3-pre",
+        "org.khronos.unitygltf": "1.17.2-pre",
         "com.unity.modules.animation": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.uielements": "1.0.0",
@@ -27,7 +27,7 @@
       "url": "https://packages.needle.tools"
     },
     "com.unity.burst": {
-      "version": "1.6.5",
+      "version": "1.7.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -63,8 +63,8 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.15",
-        "com.unity.ide.rider": "3.0.14",
+        "com.unity.ide.visualstudio": "2.0.16",
+        "com.unity.ide.rider": "3.0.15",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.performance.profile-analyzer": "1.1.1",
@@ -73,8 +73,8 @@
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.14",
-      "depth": 0,
+      "version": "3.0.15",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ext.nunit": "1.0.6"
@@ -82,8 +82,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.15",
-      "depth": 0,
+      "version": "2.0.16",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.9"
@@ -134,7 +134,7 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
-        "com.unity.burst": "1.5.0",
+        "com.unity.burst": "1.7.3",
         "com.unity.render-pipelines.core": "12.1.7",
         "com.unity.shadergraph": "12.1.7"
       }
@@ -147,7 +147,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
-      "version": "1.4.0",
+      "version": "1.4.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -242,7 +242,7 @@
       "url": "https://packages.unity.com"
     },
     "org.khronos.unitygltf": {
-      "version": "1.17.0-pre",
+      "version": "1.17.2-pre",
       "depth": 1,
       "source": "registry",
       "dependencies": {

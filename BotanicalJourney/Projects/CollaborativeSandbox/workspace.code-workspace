@@ -9,6 +9,14 @@
     {
       "name": "new-npmdef",
       "path": "node_modules/new-npmdef"
+    },
+    {
+      "name": "@needle-tools/engine",
+      "path": "node_modules/@needle-tools/engine"
+    },
+    {
+      "name": "three",
+      "path": "node_modules/three"
     }
   ],
   "settings": {
